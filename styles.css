@@ -101,7 +101,6 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1 1 auto;
 
 }
 
@@ -116,7 +115,15 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blimey {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-align: center;
 }
 
 /* section 5 media items */
